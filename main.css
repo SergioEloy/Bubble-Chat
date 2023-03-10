@@ -1,0 +1,68 @@
+body {
+    display: flex;
+    width: 1600px;
+    height: 350px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+}
+.chat{
+    background-color: rgb(253, 253, 253);
+    display: flex;
+    gap: 1rem;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.prof {
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    text-align: right;
+    margin-right: 0px;
+}
+figure{
+    display: flex;
+    margin: 18px;
+    margin-top: 2px;
+}
+#pic {
+    height: 5rem;
+    width: 5rem;
+    transform: scalex(-1);
+    align-self: flex-end;
+}
+
+.container1 {
+    height: 8rem;
+    width: 24rem;
+    background-color: rgb(240, 254, 240);
+    padding: 0.5rem;
+    border-radius: 10px;
+}
+.container2{
+    height: 8rem;
+    width: 24rem;
+    background-color: rgb(240, 240, 240);
+    padding: 0.5rem;
+    align-self: flex-end;
+    border-radius: 10px;
+
+}
+#check, #dcheck {
+    height: 1rem;
+    align-self: flex-end;
+    margin: 0.5rem;
+}
+
+.hour1, .hour2 {
+    align-items: flex-end;
+    margin: 0.5rem;
+    font-size: 1rem;
+    color: rgb(165, 165, 165);
+}
+
+.seen1, .seen2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
